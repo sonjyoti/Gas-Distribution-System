@@ -1,0 +1,134 @@
+
+body{
+  background-image: url('../img/bg5.jpg');
+  overflow-x: hidden;
+  margin-top: 0;
+  background-size: cover;
+  background-position: center;
+}
+
+
+section.features{
+  background-color:#369;
+  padding:40px 0;
+  color:#fff;
+}
+
+
+.testimonials blockquote{
+  text-align:center;
+}
+
+.site-footer{
+  padding:20px 0;
+  padding-left: 500px;
+}
+
+
+.features h4{
+  color: white;
+  font-size: x-large;
+}
+
+.site-footer h5{
+  color:inherit;
+  font-size:20px;
+}
+
+.site-footer .social-icons a:hover{
+  opacity:1;
+}
+
+.site-footer .social-icons a{
+  display:inline-block;
+  width:32px;
+  border:none;
+  font-size:20px;
+  border-radius:50%;
+  margin:4px;
+  color:#fff;
+  text-align:center;
+  background-color:#798FA5;
+  height:32px;
+  opacity:0.8;
+  line-height:32px;
+}
+
+
+.tabs {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+.tabs button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+.tabs button:hover {
+  background-color: #ddd;
+}
+
+.tabcontent {
+  display: none;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.tabcontent h2 {
+  margin-top: 0;
+}
+
+.tabcontent input {
+  padding: 10px;
+  margin: 5px 0 15px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+.tabContent {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 0 auto;
+}
+
+
+.tabPanel {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-top: none;
+  display: none;
+}
+
+.tabPanel.active {
+  display: block;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  margin: 5px 0;
+  padding: 5px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.service_section {
+  position: relative;
+}

@@ -1,0 +1,35 @@
+#incorrectPasswordModal {
+    display: none;
+    position: fixed;
+    top: 20%;
+    left: 88%;
+    width: 300px;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: white;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+}
+
+#overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#closeModalBtn {
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    background: none;
+    position: absolute;
+    top: -15px;
+    right: 10px;
+}

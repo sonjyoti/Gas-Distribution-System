@@ -1,0 +1,59 @@
+/* Apply some basic styling to the carousel container */
+#carouselExampleIndicators {
+    width: 80%; /* Adjust the width as needed */
+    margin: auto; /* Center the carousel */
+  }
+  
+  /* Style the carousel indicators */
+  .carousel-indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .carousel-indicators button {
+    background-color: #ccc;
+    border: 1px solid #666;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .carousel-indicators .active {
+    background-color: #333;
+  }
+  
+  /* Adjust padding for carousel inner */
+  .carousel-inner {
+    padding-left: 20%;
+  }
+  
+  /* Style the carousel items */
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Style the carousel controls */
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: auto;
+    color: #333;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: #333;
+    padding: 10px;
+    border-radius: 50%;
+  }
+  
+  /* Hide the "Previous" and "Next" text in the controls */
+  .carousel-control-prev span.visually-hidden,
+  .carousel-control-next span.visually-hidden {
+    display: none;
+  }
+  

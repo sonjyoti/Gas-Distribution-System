@@ -1,0 +1,83 @@
+
+.navbar{
+  margin-bottom:0;
+  border:none;
+}
+
+.navbar-brand .glyphicon{
+  margin-right:6px;
+}
+
+.tabs {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+.tabs button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+.tabs button:hover {
+  background-color: #ddd;
+}
+
+.tabcontent {
+  display: none;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.tabcontent h2 {
+  margin-top: 0;
+}
+
+.tabcontent input {
+  padding: 10px;
+  margin: 5px 0 15px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+.tabContent {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 0 auto;
+}
+
+
+.tabPanel {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-top: none;
+  display: none;
+}
+
+.tabPanel.active {
+  display: block;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  margin: 5px 0;
+  padding: 5px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
